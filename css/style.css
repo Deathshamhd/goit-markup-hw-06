@@ -1069,16 +1069,57 @@ margin: 0 40px;
   padding-top: 15px;
 
 
-  margin: 0 40px;
+  margin: 20px 40px;
+
+  text-align: center;
 
 
+
+}
+
+
+
+.input-window-comments
+
+{
+  position: relative;
+
+  width: 80%;
+
+  padding-top: 50px;
+
+
+  margin: 0 40px; 
+
+ 
+}
+
+.input-button
+{
+
+  position: absolute;
+  background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+width: 200px;
+height: 50px;
+left: 26%;
+    top: 88%;
+    margin-bottom: 40px;
+
+    font-weight: 700;
+font-size: 16px;
+line-height:calc(30/16);
+letter-spacing: 0.06em;
+color: var(--light-background-color);
 }
 
 .input-icon
 {
   position: absolute;
 
-  top: 16%;
+  top: 19.5%;
     left: -15%;
     z-index: 1;
     height: 16px;
@@ -1088,7 +1129,7 @@ margin: 0 40px;
 {
   position: absolute;
 
-  top: 25%;
+  top: 35%;
   left: -15%;
   z-index: 1;
   height: 13px;
@@ -1098,8 +1139,34 @@ margin: 0 40px;
 .input-icon-2
 {
   position: absolute;
-  top: 33.5%;
+  top: 51%;
   left: -15%;
   z-index: 1;
   height: 12px;
+}
+
+.label-agreement
+
+{
+  font-weight: 400;
+font-size: 12px;
+line-height: calc(14/12);
+
+
+letter-spacing: 0.01em;
+
+color: var(--secondry-text-color);
+
+margin: 0 40px;
+
+padding: 20px;
+display: flex;
+}
+
+.check-box-1
+{
+  display: flex;
+    left: 10%;
+    top: 77%;
+    position: absolute;
 }
