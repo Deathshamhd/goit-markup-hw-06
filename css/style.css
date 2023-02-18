@@ -1034,20 +1034,72 @@ margin-bottom: 20px;
  
 }
 
-input
+.modal-title
+{
+  font-size: 20px;
+  text-align: center;
+
+  padding: 21px;
+  padding-right: 24px;
+}
+
+.label-title
+{
+  
+
+font-weight: 400;
+font-size: 12px;
+line-height: calc(14/12);
+
+
+letter-spacing: 0.01em;
+
+color: var(--secondry-text-color);
+
+margin: 0 40px;
+
+}
+
+.input-window
 {
   position: relative;
+
+  width: 80%;
+
+  padding-top: 15px;
+
+
+  margin: 0 40px;
+
+
 }
 
 .input-icon
 {
   position: absolute;
 
-  top: 0 ;
+  top: 16%;
+    left: -15%;
+    z-index: 1;
+    height: 16px;
+}
 
-  left: 0;
+.input-icon-1
+{
+  position: absolute;
 
+  top: 25%;
+  left: -15%;
   z-index: 1;
+  height: 13px;
 }
 
 
+.input-icon-2
+{
+  position: absolute;
+  top: 33.5%;
+  left: -15%;
+  z-index: 1;
+  height: 12px;
+}
