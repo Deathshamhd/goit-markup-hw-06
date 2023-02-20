@@ -1249,3 +1249,43 @@ font-size: 12px;
 line-height:calc(14/12);
 letter-spacing: 0.01em;
 }
+
+.visually-hidden
+{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+.checkbox-icon-wrapper
+{
+  width: 15px;
+
+  height: 15px;
+
+  border: 1px solid var(--primary-text-color);
+
+  border-radius: 4px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+.checkbox-icon
+{
+  fill: white;
+}
+.modal-checkbox:checked +.checkbox-text>.checkbox-icon-wrapper
+{
+background-color: var(--accent-color);
+border: none;
+}
+{
+
+}
