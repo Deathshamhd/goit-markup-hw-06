@@ -1138,6 +1138,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color:var(--primary-text-color);
 margin-bottom: 12px;
+padding-top: 17px;
 }
 .modal-from-feild
 {
@@ -1276,6 +1277,8 @@ letter-spacing: 0.01em;
   align-items: center;
 
   justify-content: center;
+
+  margin-right: 12px;
 }
 .checkbox-icon
 {
@@ -1286,6 +1289,39 @@ letter-spacing: 0.01em;
 background-color: var(--accent-color);
 border: none;
 }
+.checkbox-text
 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24/14);
+
+position: absolute;
+    left: 13%;
+    bottom: 14%;
+
+}
+.modal-send-button
+{
+  width: 200px;
+
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+background-color: var(--accent-color);
+font-weight: 700;
+font-size: 16px;
+line-height:calc(30/16);
+
+color: var(--light-background-color);
+border: none;
+position: absolute;
+left: 29%;
+bottom: 3%;
 }
