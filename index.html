@@ -430,7 +430,7 @@
           </ul>
           <div class="footer-end-side">
             <h3>Subscribe to the newsletter</h3>
-            <input type="text" placeholder="E-mail" class="footer-input"> 
+            <input type="email" placeholder="E-mail" class="footer-input" required minlength="3"> 
             <button type="button" class="footer-sub-button"><span class="footer-sub-text">Suscribe</span></button>
             <svg class="footer-button-icon">
               <use href="img/sprite.svg#icon-icon-send"></use>
@@ -441,11 +441,11 @@
 
       <!-- model window -->
      
-      <div class="backdrop" data-modal>
+      <div class="backdrop  is-hidden" data-modal>
         <div class="modal-window">
           <button type="button" class="closed-button" data-modal-close><span class="x-size">&times</span></button> 
           
-          <div class="container">
+          
           <p class="modal-text">Leave your information and we'll call you back</p>
           <div class="modal-from-feild">
             <label class="modal-label" for="name" >Name </lable>
@@ -456,7 +456,7 @@
                  class="modal-input" 
                  id="name" 
                    name="name"  
-                  placeholder= "Enter your name "
+                  
                   minlength="2"
                    required
                  />
@@ -473,7 +473,7 @@
                type="tel" 
                class="modal-input" 
                id="Telephone"  
-               placeholder=" +905-xxx-xxx " 
+               
                name="Telephone" 
                minlength="9" 
                required
@@ -491,7 +491,7 @@
              type="email" 
              class="modal-input" 
              id="mail"  
-             placeholder="examplmail@gmail.com " 
+            
              name="mail" 
              minlength="3" 
              required

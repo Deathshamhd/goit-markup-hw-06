@@ -1040,7 +1040,7 @@ margin-bottom: 20px;
 {
   position: absolute;
   left: 49%;
-  top: 40%;
+  top: 28%;
 }
 
 .footer-end-side h3
@@ -1068,10 +1068,16 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 background-color:var(--dark-background-color);
 
+padding: 16px;
+
+
+outline: none;
+
+color:var(--accent-color);
 
 }
 
-::placeholder
+.footer-input::placeholder
 
 {
   font-weight: 400;
@@ -1092,9 +1098,18 @@ color: rgba(255, 255, 255, 0.6);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 
-
+border: none;
 
 }
+.footer-sub-button:hover,
+.footer-sub-button:focus
+{
+  background-color: orange;
+  color: red;
+}
+
+
+
 
 .footer-sub-text
 
@@ -1132,17 +1147,19 @@ height: 24px;
 .modal-text
 {
 font-weight: 700;
-font-size: 20px;
+font-size: 19px;
 line-height: calc(23/20);
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--primary-text-color);
 margin-bottom: 12px;
-padding-top: 17px;
+padding: 30px;
 }
 .modal-from-feild
 {
   margin-bottom: 28px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .modal-label
 {
@@ -1160,6 +1177,7 @@ color:var(--secondry-text-color);
 margin-bottom:4px;
 
 display: block;
+margin-top: -1%;
 }
 .input-wrapper
 {
@@ -1205,9 +1223,8 @@ color: var(--accent-color);
 {
   position: absolute;
 
-  top: 14px;
-
-  right: 328px;
+  top: 38%;
+    left: -29%;
 
   fill: var(--primary-text-color);
 }
@@ -1303,8 +1320,8 @@ font-size: 14px;
 line-height: calc(24/14);
 
 position: absolute;
-    left: 13%;
-    bottom: 14%;
+left: 9%;
+top: 81%;
 
 }
 .modal-send-button
@@ -1324,4 +1341,12 @@ border: none;
 position: absolute;
 left: 29%;
 bottom: 3%;
+}
+.modal-send-button:hover,
+.modal-send-button:focus
+
+{
+  color: orange;
+
+  background-color: red;
 }
