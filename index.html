@@ -430,7 +430,7 @@
           </ul>
           <div class="footer-end-side">
             <h3>Subscribe to the newsletter</h3>
-            <input type="text" placeholder="E-mail" class="footer-input">
+            <input type="text" placeholder="E-mail" class="footer-input"> 
             <button type="button" class="footer-sub-button"><span class="footer-sub-text">Suscribe</span></button>
             <svg class="footer-button-icon">
               <use href="img/sprite.svg#icon-icon-send"></use>
@@ -440,60 +440,75 @@
       </div>
 
       <!-- model window -->
-      <div class="backdrop  is-hidden " data-modal>
+     
+      <div class="backdrop" data-modal>
         <div class="modal-window">
           <button type="button" class="closed-button" data-modal-close><span class="x-size">&times</span></button> 
-
           
-          <h2 class="modal-title">Leave your information and we'll call you back</h2>
-          <form class="container">
-            <label class="label-title" >Name </lable>
-              <br>
+          <div class="container">
+          <p class="modal-text">Leave your information and we'll call you back</p>
+          <div class="modal-from-feild">
+            <label class="modal-label" for="name" >Name </lable>
               
-                <svg  class="input-icon" >
+              <div class="input-wrapper">
+                <input
+                 type="text" 
+                 class="modal-input" 
+                 id="name" 
+                   name="name"  
+                  placeholder= "Enter your name "
+                  minlength="2"
+                   required
+                 >
+                 <svg  class="modal-icon" witdth="12px" height="12px">
                   <use href="img/sprite.svg#icon-user"></use>
                 </svg>
-
-                <input type="text" class="input-window" >
-                
-              
-              <br>
-            <label class="label-title">Telephone</label>
-            <br>
-            <svg  class="input-icon-1">
-              <use href="img/sprite.svg#icon-Telephone"></use>
-            </svg>
-            <input type="text" class="input-window">
-            <br>
-            <label class="label-title">E-mail</label>
-            <br>
-            <svg  class="input-icon-2" >
+              </div>
+          </div>
+          <div class="modal-from-feild">
+          <label class="modal-label" for="Telephone" >Telephone </lable>
+            
+            <div class="input-wrapper">
+              <input
+               type="tel" 
+               class="modal-input" 
+               id="Telephone"  
+               placeholder=" +905-xxx-xxx " 
+               name="Telephone" 
+               minlength="9" 
+               required
+               >
+               <svg  class="modal-icon" witdth="13px" height="13px">
+                <use href="img/sprite.svg#icon-Telephone"></use>
+              </svg>
+            </div>
+        </div>
+        <div class="modal-from-feild">
+        <label class="modal-label" for="mail">E-mail </lable>
+          
+          <div class="input-wrapper">
+            <input
+             type="email" 
+             class="modal-input" 
+             id="mail"  
+             placeholder="examplmail@gmail.com " 
+             name="mail" 
+             minlength="3" 
+             required
+             >
+             <svg  class="modal-icon" witdth="15px" height="12px">
               <use href="img/sprite.svg#icon-mail"></use>
             </svg>
-            <input type="text"  class="input-window">
-            <br>
-
-            <label class="label-title">Comments</label>
-            <br>
-            <input type="text"  placeholder="Enter the text" class="input-window-comments" >
-
-            <br>
-
-            <input type="checkbox" class="check-box-1">
-
-            <label class="label-agreement">I agree with the  newsletter and accept the terms and <br> Conditions</label>
-
-            <br>
-
-
-            <input type="button" value="send" class="input-button"> 
-          
-            </form>
-            
+          </div>
+      </div>
+      <div class="modal-from-feild">
+        <label for="comments" class="modal-label">Comments</label>
+        <textarea name="comments" id="comments" placeholder="Enter the text" class="modal-comments"></textarea>
+       
 
           </div>
-
       </div>
+    </div>
     </footer>
 
     <script src="./js/modal.js"></script>
