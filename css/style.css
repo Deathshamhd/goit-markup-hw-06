@@ -1075,6 +1075,8 @@ outline: none;
 
 color:var(--accent-color);
 
+margin-right: 12px;
+
 }
 
 .footer-input::placeholder
@@ -1136,8 +1138,8 @@ font-weight: 700;
 {
 position: absolute;
 
-left: 92%;
-top: 59%;
+left: 79%;
+top: 32%;
 fill: white;
 width: 24px;
 height: 24px;
@@ -1204,6 +1206,8 @@ line-height: calc(14/12);
 letter-spacing: 0.01em;
 
 color:rgba(117, 117, 117, 0.5);
+
+margin-top: 4px;
 
 
 }
@@ -1295,7 +1299,8 @@ letter-spacing: 0.01em;
 
   justify-content: center;
 
-  margin-right: 12px;
+  margin-right: 14px;
+  margin-bottom: 18px;
 }
 .checkbox-icon
 {
@@ -1321,7 +1326,7 @@ line-height: calc(24/14);
 
 position: absolute;
 left: 9%;
-top: 81%;
+top: 83%;
 
 }
 .modal-send-button
