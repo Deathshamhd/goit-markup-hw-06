@@ -214,7 +214,9 @@ ul {
 
   width: 528px;
 
-  height: 581px;
+  min-height: 581px;
+
+  padding: 40px;
 
   
   background: #FFFFFF;
@@ -1149,18 +1151,18 @@ height: 24px;
 .modal-text
 {
 font-weight: 700;
-font-size: 19px;
+font-size: 20px;
 line-height: calc(23/20);
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--primary-text-color);
 margin-bottom: 12px;
-padding: 30px;
+
 }
 .modal-from-feild
 {
   margin-bottom: 28px;
-  margin-left: 40px;
+  
   margin-right: 40px;
 }
 .modal-label
@@ -1227,8 +1229,8 @@ color: var(--accent-color);
 {
   position: absolute;
 
-  top: 38%;
-    left: -29%;
+  top: 47%;
+  left: -31%;
 
   fill: var(--primary-text-color);
 }
@@ -1323,10 +1325,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: calc(24/14);
-
-position: absolute;
-left: 9%;
-top: 83%;
+margin-right: 33px;
 
 }
 .modal-send-button
