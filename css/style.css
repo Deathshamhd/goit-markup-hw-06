@@ -340,6 +340,7 @@ position: absolute;
 
   letter-spacing: 0.06em;
 
+
   color: var(--light-background-color);
 }
 
@@ -1229,8 +1230,11 @@ color: var(--accent-color);
 {
   position: absolute;
 
-  top: 47%;
-  right: 62%;
+  top: 50%;
+
+  left: 15px;
+
+  transform: translateY(-50%);
 
   fill: var(--primary-text-color);
 }
@@ -1327,6 +1331,8 @@ font-size: 14px;
 line-height: calc(24/14);
 margin-right: 75px;
 
+cursor: pointer;
+
 }
 .modal-from-button
 {
@@ -1360,4 +1366,6 @@ border: none;
   color: orange;
 
   background-color: red;
+
+  cursor: pointer;
 }
